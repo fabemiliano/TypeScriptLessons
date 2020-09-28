@@ -1,7 +1,7 @@
 // Usando o union |
 
 
-// O unior é como se fosse um ou, então posso atribuir para uma variável, por exemplo, mais de um tipo aceitável
+// O union é como se fosse um ou, então posso atribuir para uma variável, por exemplo, mais de um tipo aceitável
 
 let strOrNum: string | number;
 
@@ -9,3 +9,13 @@ let strOrNum: string | number;
 strOrNum = 'Hi';
 strOrNum = 2;
 strOrNum = true;
+
+//O tipo pode ser também strings escpecíficas:
+
+
+let someStr: 'carro' | 'moto'
+
+//funciona
+someStr: 'carro';
+//não funciona
+somStr: 'avião';
