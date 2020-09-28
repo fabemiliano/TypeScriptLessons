@@ -3,21 +3,27 @@
 
 This reposistory was created so I could keep the notes I took while watching to some TypeScript tutorials.
 
-It only convers the basics of the superset Language, such as:
+It only convers the basics of the superset language, such as:
 
-- Primitive Types
-- Arrays
-- Tuples
-- Enum
-- Objects
-- Functions
-- Unions
-- Type Aliases
-- Intersection
-- Interfaces
+- Arrays and Tuples
+- Basic Types
 - Classes
-- Type Utilities
+- Enum
+- Functions
 - Generics
-- Decorators
+- Interfaces
+- Intersection
+- Map
+- Modifiers
+- Objects
+- Promises
+- Set
+- Type Aliases
+- Type Utilities
+- Unions
+- Variables
 
-* The file tsconfig,json has the configuration for the tranpilation ran by the tsc command
+The ts files won't transpile because there are plenty of errors which doesn't let the task to be done. These errors exist so it can be understood what is the cause.
+
+
+* The file tsconfig.json has the configuration for the tranpilation ran by the tsc command. To create the tsconfig.json use the CLI command tsc --init
